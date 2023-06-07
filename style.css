@@ -459,7 +459,6 @@ button:hover {
 
 /* media queries for 800px and under */
 @media only screen and (max-width: 800px) {
-
   body {
     overflow-x: hidden;
   }
@@ -538,7 +537,6 @@ button:hover {
 
 /* media queries for 800px and over */
 @media only screen and (min-width: 800px) {
-
   .nav-container {
     display: none;
   }
@@ -550,7 +548,6 @@ button:hover {
 
 /* media queries for 500px and under */
 @media only screen and (max-width: 500px) {
-
   main img {
     height: calc(180px + 1vmin);
   }
@@ -594,7 +591,6 @@ button:hover {
 
 /* less than 300px */
 @media only screen and (max-width: 300px) {
-
   main div {
     font-size: calc(13px + 0.3vw);
   }

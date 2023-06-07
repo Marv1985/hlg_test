@@ -2,7 +2,7 @@ const checked = document.getElementById("checked");
 const mobileNav = document.querySelector(".mobile-nav");
 
 //function for sliding mobile view menu checkbox
-checked.addEventListener("click", function (e) {
+checked.addEventListener("click", function () {
   if (checked.checked) {
     mobileNav.setAttribute("id", "slide");
   } else {
